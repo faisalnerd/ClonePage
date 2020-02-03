@@ -1,0 +1,62 @@
+@media all and (max-width:906px){
+    .header-area .logo-area{
+        float:none;
+        margin-bottom:20px;
+        text-align:center;
+        width:100%;
+    }
+    .container{
+        margin:0 0;
+    }
+    .header-area .login-area{
+        width:100%;
+    }
+    .login-area form{
+        float:none;
+        width:400px;
+        margin:auto;
+        
+    }
+}
+@media all and (max-width:490px){
+    .login-area form{
+        width:auto;
+    }
+    .login-area .username-area{
+        float:none;
+    }
+    .login-area .password-area{
+        float:none;
+        padding-left:0px;
+        padding-top:5px;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+        width:90%;
+    }
+    .login-area .username-area,
+    .login-area .password-area{
+        padding-left:15px;
+    }
+
+    .content .marketting-area img{
+        width:350px;
+        height:100px;
+    }
+}
+
+@media all and (max-width:1160px){
+    .content .marketting-area{
+        width:100%
+        text-align:center;
+    }
+    .content .signup-area{
+        width:80%;
+        margin:auto;
+    }
+}
+@media all and (max-width:684px){
+    .content .marketting-area {
+        margin-left:20px;
+    }
+}

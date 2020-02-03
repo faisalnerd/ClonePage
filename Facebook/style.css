@@ -1,0 +1,230 @@
+body{
+    margin:0;
+}
+
+/***problem:1)image border bojha jacche
+             2)birthday r gender er pashe j ques mark,ta dite parchina..eta ki icon?
+             3)responive korar somoy "Facebook helps you connect and share with the people in your life." ei line ta venge jacche..na vangar jnno kothy change ana lagbe?
+             4)footer er hr a border top 0 korar por beshi halka hye jacche...
+             5)responsive korar somoy footer er option gulo left side a soman thaktesena..ki dye solve krbo?***/
+
+/*** heaer-area ***/
+.header-area{
+    background-color :#3B5998;
+    padding:10px 0;
+    width:100%;
+    overflow:hidden;
+}
+.container{
+     margin:0px 17%;
+}
+.header-area .logo-area{
+    width:30%;
+    float:left;
+}
+.logo-area img{
+    margin-top:8px;
+    cursor:pointer;
+}
+.header-area .login-area{
+    overflow:hidden;
+    width:70%;    
+}
+.login-area form{
+    float:right;
+}
+.login-area input{
+    display:block;
+    margin:5px 0;
+}
+.login-area label{
+    color:#FFFFFF;
+    font-family:tahoma;
+    font-size:12px;
+    display:block;
+}
+.login-area a{
+    color:#9CB4D8;
+    text-decoration: none;
+    font-size:12px;
+}
+.login-area a:hover{
+    text-decoration:underline;
+}
+.login-area [type="submit"]{
+    font-size:12px;
+    background-color:rgb(83, 100, 153);
+    border:1px solid #133783;
+    color:white;
+    font-weight:bold;
+    padding:5px;
+}
+.login-area [type="submit"]:hover{
+    background-color:#3B5998;
+}
+.username-area{
+    float:left;
+}
+.password-area{
+    overflow:hidden;
+    float:left;
+    padding-left:15px;
+}
+.submit-area{
+    overflow:hidden;
+}
+.submit-area input{
+    margin-top:20px;
+    margin-left:15px;
+}
+.submit-area input:hover{
+    cursor:pointer;
+}
+
+/*** content-area ***/
+
+.content{
+    background:linear-gradient(#FFFFFF, #D3D8E8);
+    
+}
+.marketting-area{
+    width:33%;
+}
+.content .marketting-area{
+    float:left;
+    margin-top:50px;
+    margin-left:200px;
+    margin-right:8%;
+    text-align:bottom;
+    font-weight:bold;
+    font-size:22px;
+    color:#0E385F;
+}
+.content .signup-area{
+    width:30%;
+    overflow:hidden;
+    padding-top:21px;
+    margin-left:400px;
+}
+.signup-area a:hover{
+    text-decoration:underline;
+}
+.createaccount .p1{
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight:bold;
+    font-size:33px;
+}
+.createaccount p{
+    font-size:20px;
+}
+.signup-input-area input{  
+    padding:8px;
+    display:block;
+    border-radius:6px;
+    font-size:18px;
+    border:1px solid rgb(197, 202, 216);
+}
+.signup-area input[type="text"]:first-child{
+    float:left;
+    width:42%;
+    margin-right:3%;
+}
+.signup-area input[type="text"]:nth-child(2){
+    width:42%;
+}
+.signup-area input[type="text"]:nth-child(3),
+.signup-area input[type="password"]:last-child{
+    margin-top:12px;
+    width:91%;
+}
+.birthday p{
+    margin-bottom:8px;
+    font-size:18px;
+    font-weight:bold;
+    font-family:'Titillium Web', sans-serif;
+    color:rgb(144, 147, 153);
+}
+.birthday select{
+    padding:5px;
+    float:left;
+}
+.year select{
+    padding:5px;
+}
+.gender-select-area p{
+    margin-bottom:8px;
+    font-size:18px;
+    font-weight:bold;
+    font-family:'Titillium Web', sans-serif;
+    color:rgb(144, 147, 153);
+}
+.gender-select-area{
+    font-size:20px;
+    font-family:'Titillium Web', sans-serif;
+    margin-bottom:15px;
+}
+.final-signup-area p{
+    font-size:12px;
+    color:rgb(144, 147, 153);
+    margin:0;
+}
+.final-signup-area a{
+    text-decoration:none;
+    color:#3B5998;
+}
+.final-signup-area input[type=submit]{
+    padding:10px 75px;
+    margin-top:15px;
+    border:1px solid rgb(78, 141, 54);
+    border-radius: 7px;
+    color:white;
+    font-size:20px;
+    background:linear-gradient(#7CC067, #588B44) 
+}
+.final-signup-area input[type=submit]:hover{
+    background:linear-gradient(#588B44,#7CC067)
+}
+.last{
+    margin:30px 0;
+    font-weight:bold;
+    color:rgb(144, 147, 153);
+}
+.last a{
+    color:#3B5998;
+}
+
+/***footer-area***/
+
+.footer{
+    margin-left: 13%;
+    margin-right:13%;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.footer a{
+    color:#3B5998;
+    font-size:13px;
+    font-family:tahoma;
+    text-decoration:none;
+    margin:4px;
+}
+.footer a:hover{
+    text-decoration:underline;
+}
+.language input{
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(132, 133, 136);
+}
+.option a{
+    margin:8px;
+}
+.option{
+    margin-bottom:35px;
+}
+.copyright{
+    color:rgb(132, 133, 136);
+    font-size:15px;
+}
+
+
