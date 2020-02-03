@@ -2,12 +2,6 @@ body{
     margin:0;
 }
 
-/***problem:1)image border bojha jacche
-             2)birthday r gender er pashe j ques mark,ta dite parchina..eta ki icon?
-             3)responive korar somoy "Facebook helps you connect and share with the people in your life." ei line ta venge jacche..na vangar jnno kothy change ana lagbe?
-             4)footer er hr a border top 0 korar por beshi halka hye jacche...
-             5)responsive korar somoy footer er option gulo left side a soman thaktesena..ki dye solve krbo?***/
-
 /*** heaer-area ***/
 .header-area{
     background-color :#3B5998;
